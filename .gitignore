@@ -7,3 +7,16 @@ Homestead.yaml
 .env
 /storage/uploads/products/
 .htaccess
+.bash_history
+.bashrc
+.cache/
+.cloud-locale-test.skip
+.nano/
+.profile
+.rnd
+.selected_editor
+.ssh/
+.wget-hsts
+cert/
+commit.sh
+

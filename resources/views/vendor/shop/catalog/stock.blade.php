@@ -1,1 +1,0 @@
-<?= $aibody['catalog/stock'] ?>
