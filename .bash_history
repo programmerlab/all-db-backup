@@ -1646,3 +1646,112 @@ rm -rf alldb.sql
 mysqldump -u root -p --all-databases > alldb.sql
 ls -la
 scp -r alldb.sql  root@139.59.63.136:/var/www/database
+crontab -e
+locate alldb.sql
+cd root
+cd /root/
+ls
+ls -la
+git init 
+git remote add origin git@github.com:krsdata/all-db-backup.git
+cd
+ls
+git add alldb.sql 
+git comit -m "db-backup"
+git commit -m "db-backup"
+ls -la
+crontab -e
+mysqldump -u root -p Kandy@123! --all-databases > alldb.sql
+ls
+ls -la
+rm -rf alldb.sql 
+mysqldump -u root -p Kandy@123! --all-databases > alldb.sql
+ls -la
+mysqldump -u root -p --all-databases > alldb.sql
+ls -la
+mysqldump -u root -p --all-databases > alldb.sql  Kandy@123!
+mv alldb.sql alldb.sql2
+ls
+mysqldump -u root -p --all-databases > alldb.sql  Kandy@123!
+ls -la
+mysqldump -u root --all-databases > alldb.sql
+nan ~/.my.cnf
+nano ~/.my.cnf
+locate  my.cnf
+nano /etc/mysql/my.cnf
+mysqldump -u root -p --all-databases > alldb.sql
+mysqldump -u root --all-databases > alldb.sql
+ls -la
+rm -rf alldb.sql
+rm -rf alldb.sql alldb.sql2 
+ls
+ls -la
+ls
+mysqldump -u root --all-databases > alldb.sql
+ls -la
+git add alldb.sql 
+git commit -m "db" .
+git config --global --edit
+sudo git config --global --edit
+sudo git config ng set --global --edit
+sudo git config --global --edit
+ng help
+free
+sync; echo 3 > /proc/sys/vm/drop_caches 
+free 
+top
+top -c
+free -m
+mysqldump -u root --all-databases > alldb.sql
+ls -la
+crontab -e
+git push origin master 
+git checkout -b "server-158" 
+cd /var/www/html/
+ls
+ls -la
+rm -rf marchworking.zip 
+rm -rf alldb.sql 
+ls -la
+rm -rf kundanroy/
+nano .htaccess 
+rm -rf .htaccess 
+ls -la
+cd ..
+cd
+git branch 
+git push origin server-158 
+sudo nano /etc/default/automysqlbackup
+automysqlbackup
+ls
+cd  automysqlbackup/
+ls
+cd daily/
+ls
+rm -rf CarolData/
+ls
+cd
+git add automysqlbackup/
+git commit -m "db"
+git push origin server-158 
+nano commit.sh
+sh commit.sh 
+nano commit.sh
+git stash
+sh commit.sh 
+ls
+crontab -e 
+ls
+nano /etc/hosts
+ls
+crontab -e
+nano /etc/mysql/my.cnf
+cd /var/www/html/eventbid
+git branch 
+git pull origin dev 
+locate php.ini
+nano /etc/php/7.0/apache2/php.ini
+nano /var/www/html/eventbid
+cd  /var/www/html/eventbid
+nano app/Exceptions/Handler.php 
+nano .env
