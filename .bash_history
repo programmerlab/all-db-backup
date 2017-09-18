@@ -1755,3 +1755,25 @@ nano /var/www/html/eventbid
 cd  /var/www/html/eventbid
 nano app/Exceptions/Handler.php 
 nano .env
+cd /var/www/html/gsure.in/
+git pull origin master 
+cd /var/www/html/eventbid
+nano app/Http/Controllers/ApiController.php 
+chmod -R 777 public/images/
+exit
+cd  /etc/php/7.0/apache2
+cp -rf php.ini php-2.ini
+nano php.ini
+sudo service apache2 restart 
+cd /var/www/html/
+ls
+rm -rf intouchamerica-main.zip 
+rm -rf intouchamerica-main
+rm -rf eventbid2
+rm -rf sidhisanskriti/
+rm -rf syncabi
+rm -rf syncabi-api/
+ls -la
+rm -rf marchworking
+nano /etc/apache2/sites-available/000-default.conf
+nano /etc/apache2/sites-available/000-default.conf
