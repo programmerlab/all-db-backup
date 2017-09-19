@@ -1777,3 +1777,21 @@ ls -la
 rm -rf marchworking
 nano /etc/apache2/sites-available/000-default.conf
 nano /etc/apache2/sites-available/000-default.conf
+sudo su gsure
+cd /var/www/html/gsure.in/
+git pull origin master 
+sudo chown -R gsure:gsure /var/www/html/gsure.in
+chmod -R 777 .git/
+pwd
+sudo passwd gsure
+sudo su gsure
+exit
+cd /var/www/html/gsure.in/
+git pull origin master 
+cd /var/www/html/event-bid
+nano index.html 
+nano 
+nano ../yellotasker/.htaccess 
+nano .htaccess
+nano index.html 
+exit
