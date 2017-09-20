@@ -1795,3 +1795,90 @@ nano ../yellotasker/.htaccess
 nano .htaccess
 nano index.html 
 exit
+cd /var/www/html/
+nano event-bid/index.html 
+exit
+cd /var/www/html/event-bid
+ls
+ls -la
+cd ../gsure.in/
+ls
+ls -la
+cd ..
+mv gsure.in gsure.in2
+mv event-bid gsure.in
+cd  gsure.in
+git fetch --all
+git checkout www_release_1 
+git branch 
+git checkout -f master 
+git checkout -f www_release_1  
+git pull origin www_release_1 
+ls -la
+git branch 
+git checkout -f www_release_1 
+ls
+cd app/
+ls
+ls -la
+cd ..
+ls
+cd ..
+cd event-bid2/
+ls
+cd  app/
+ls
+cd ..
+mv gsure.in2 gsure.in
+ls
+mkdir event-bid
+cd event-bid
+ls
+git init
+ls -la
+git remote add origin git@github.com:krsdata/event-bid.git
+git fetch --all
+git checkout www_release_1 
+cd app/
+ls
+cat app.js 
+cd ..
+nano index.html 
+y
+nano index.html 
+cd ..
+ls
+cd gsure.in/
+ls
+nano index.html 
+ls -la
+cd ..
+ls -la
+cp -r  gsure.in/gsure.in2 .
+ls -la
+rm -rf gsure.in
+mv gsure.in2/ gsure.in/
+cp -r event-bid eventbidJs
+nano  eventbidJs/Web.config 
+nano gsure.in/Web.config 
+nano  eventbidJs/Web.config 
+nano  eventbidJs/eventBid.csproj
+nano  gsure.in/growSure.csproj
+nano  eventbidJs/eventBid.csproj
+ls -la
+cd eventbidJs/
+ls
+nano app/app.js 
+ls -la
+nano app/app.js 
+cd app/
+mv app.js app.js2 
+nano app.js
+cd /var/www/html/eventbidJs/
+ls
+cd app/
+ls
+rm -rf app.js
+mv app.js2 app.js
+nano app.js 
+git branch 
