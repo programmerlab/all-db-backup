@@ -1,104 +1,3 @@
-nano /etc/hostname 
-nano /etc/hosts
-ssh -l root 158.69.223.203
-ls
-sudo service apache2
-sudo service apache2 restart
-ls
-php -v
-sudo apt-get update
-sudo apt-get install php
-php -v
-sudo apt-get install apache2
-cd /var/www/html/
-ls
-nano info.php
-sudo service apache2 restart
-sudo apt-get curl
-sudo apt-get install  curl
-sudo apt autoremove
-sudo apt-get install  curl
-sudo apt-get install  zip
-sudo apt-get install  mbcrypt
-sudo apt-get install  mbstring
-sudo apt-get install  php-mbstring
-nano /etc/apache2/mods-enabled/php5.conf
-nano /etc/apache2/sites-enabled/000-default.conf in
-nano /etc/apache2/sites-enabled/000-default.conf
-nano /etc/apache2/sites-available/000-default.conf 
-locate .cnf
-sudo passwd root
-sudo adduser kandy
-sudo usermod -d /var/www/html/ kandy
-sudo su kandy
-kandy ALL=(ALL:ALL) ALL
-sudo usermod -a -G users kandy
-sudo chmod -R 770 /var/www/html/eventbid/
-kandy  ALL=(ALL:ALL) ALL
-sudo visudo
-sudo su kandy 
-chmod kandy  u+w /var/www/html/eventbid/
-sudo chmod kandy  u+w /var/www/html/eventbid/
-sudo chown kandy  u+w /var/www/html/eventbid/
-sudo chown kandy: /var/www/html/eventbid/
-sudo chmod u+w /var/www/html/eventbid/
-sudo usermod -a -G groupname kandy
-sudo usermod -a -G eventbid kandy
-sudo chmod g+w kandy
-sudo chmod -R ug+rw /var/www/html/eventbid/
-ls
-rm -rf kk
-sudo su kandy 
-nano /etc/hosts
-cd /var/www/html/
-ls -la
-chmod -R 755 eventbid/
-cd eventbid/
-chmdo -R 777 storage/ bootstrap/
-chmod  -R 777 storage/ bootstrap/
-cp -r .env.production .env
-nano .env
-php artisan
-php artisan key:generate
-sudo apt-get install mcrypt
-sudo apt-get install phpmyadmin php-mbstring php-gettext
-sudo phpenmod mcrypt
-sudo phpenmod mbstring
-sudo systemctl restart apache2
-sudo apt-get install mysql-server php7-mysql
-sudo apt-get install mysql-server php7.0-mysql
-sudo apt-get remove  phpmyadmin
-sudo apt-get autoremove
-sudo apt-get install phpmyadmin
-sudo php7enmod mcrypt
-sudo php-enmod mcrypt
-sudo service apache2 restart
-nano /etc/apache2/apache2.conf
-/etc/init.d/apache2 restart
-sudo a2enconf phpmyadmin
-sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
-sudo a2enconf phpmyadmin
-sudo service apache2 reload
-sudo a2enconf phpmyadmin
-sudo apt install php-gettext
-nano make
-make install
-sudo apt install make
-make install
-nano Makefile
-make clean
-nano Makefile
-make clean
-nano Makefile
-make clean
-nano Makefile
-make start
-nano Makefile
-make start
-cat -e -t -v  Makefile 
-make start
-nano Makefile
-cat -e -t -v  Makefile 
 make start
 nano Makefile
 make install
@@ -1882,3 +1781,220 @@ rm -rf app.js
 mv app.js2 app.js
 nano app.js 
 git branch 
+sudo su gsure 
+cd /var/www/html/gsure.in/
+ls -a
+ls -ls
+cd ..
+ls -la
+gsure.in/
+ls
+cd gsure.in/
+ls
+ls -ls
+git init
+git remote add origin git@github.com:krsdata/growsure.git
+ls -ls
+rm -rf .git
+git init 
+git remote add origin git@github.com:krsdata/growsure.git
+git checkout master 
+git pull origin master 
+git@github.com:krsdata/growsure.gitcd ..
+cd ..
+mv gsure.in gsure.in2
+mkdir gsure.in
+cd gsure.in
+git init 
+git remote add origin git@github.com:krsdata/growsure.git
+git pull origin master 
+ssh-keygen -t rsa -C "kroy@gmail.com"
+ssh-keygen -t rsa -C "kroy.iips@gmail.com"
+sudo su gsure 
+sudo usermod -d /var/www/html/gsure gsure
+sudo deluser gsure
+kill 3963
+sudo deluser -f gsure
+cd /home/
+ls
+rm -rf gsure/
+cd
+deluser gsure
+cd /usr/sbin/
+ls
+cd /var/www/html/gsure.in
+ls
+sudo usermod -d /var/www/html/gsure gsure
+ps -aux
+sudo usermod -d /var/www/html/gsure gsure
+kill 4024
+deluser gsure
+user aduser gsure
+user adduser gsure
+adduser gsure
+sudo usermod -d /var/www/html/gsure gsure
+chown -R gsure:gsure /var/www/html/gsure
+chown -R gsure:gsure /var/www/html/gsure.in
+sudo su gsure 
+cd
+rm -rf /home/gsure
+sudo adduser gsure
+cd /home/
+ls
+deluser gsure
+sudo adduser gsure
+sudo  usermod -d /var/www/html/gsure.in gsure
+chown -R gsure:gsure /var/www/html/gsure.in
+sudo su gsure 
+sudo su gsure 
+cd /var/www/html/gsure.in
+ls
+gti status
+git pull origin master 
+cd ..
+mkdir gsure
+cd gsure
+git init
+git remote add origin git@github.com:krsdata/growsure.git
+git fetch --all
+git checkout master 
+ls -ls
+git init
+ls -ls
+ls -la
+cd ..
+cd gsure.in
+ls -la
+nano .git/config 
+git pull origin master 
+cat ~/.ssh/id_rsa.pub 
+git pull origin master 
+git fetch --all
+sudo su gsure 
+cd /var/www/html/gsure.in
+nano .git/config 
+git checkout -b dev
+git pull origin master 
+git checkout  .bash_history
+git fetch --all
+git checkout www_release_1_growsure 
+cd ..
+ls -la
+cp -r growSure2/ gsure.in/
+cd gsure.in
+ls
+cp -r growSure2/ .
+cp -r growSure2/*  .
+ls
+cd ..
+ls
+ls -la
+nano gsure.in/.git/config 
+cd gsure.in
+ls
+ls -ls
+ls -la
+git clone https://programmerlab@bitbucket.org/programmerlab/growsure.git
+ls -la
+rm -rf app growsure2 growSure.csproj growSure.csproj.user  index.html  obj Properties/ Web.config Web.Debug.config Web.Release.config 
+ls -la
+cp -r growsure/* .
+ls
+git branch 
+git fetch --all
+git branch -a
+git checkout www_release_1_growsure 
+git checkout app/
+git checkout www_release_1_growsure 
+git branch 
+cat .git/config 
+rm -rf .git/
+git init
+git remote add origin  https://programmerlab@bitbucket.org/programmerlab/growsure.git
+git fetch --all
+git checkout www_release_1_growsure 
+ls -la
+rm -rf app/ data.html growSure2 growSure.csproj growSure.csproj.user  index.html obj/ Properties/ Web.*
+ls
+ls -la
+git fetch --all
+git branch 
+git checkout -b dev
+git commit -m "dev"
+git add .
+git commit -m "dev" .
+git checkout -b dev
+ls
+git branch 
+git fetch --all
+git branch -a
+git checkout www_release_1_growsure 
+cd ..
+rm -rf gsure.in
+mv growSure2/ gsure.in
+cd gsure.in
+git checkout master 
+ls -ls
+chmod -R 777 app/
+cd ..
+rm -rf gsure
+rm -rf gsure.in
+mkdir gsure.in
+cd gsure.in
+git init
+git remote add origin https://programmerlab@bitbucket.org/programmerlab/growsure.git
+git fetch --all
+git checkout master 
+cd ..
+ls
+ls -la
+cat gsure.in2/.git/config 
+cd gsure.in
+ls -ls
+cd .
+cd ..
+rm -rf gsure.in
+git clone git@github.com:krsdata/gsure.in.git
+cd gsure.in
+git fetch --all
+git checkout dev 
+cd ..
+chmod -R 755 gsure.in
+cd gsure.in
+git branch -a
+git checkout  master 
+git branch 
+sudo usermod -d /var/www/html/gsure.in 
+sudo usermod -d /var/www/html/gsure.in gsure
+sudo su gsure 
+cd ..
+ls
+ls -la
+sudo mkdir gsure
+git init 
+git remote add origin git@github.com:krsdata/gsure.in.git
+git checkout dev 
+git fetch --all
+git checkout dev 
+rm -rf .git/
+cd gsure
+git init
+git remote add origin git@github.com:krsdata/gsure.in.git
+git fetch --all
+git checkout dev
+cd ..
+ls -ls
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+cd gsure
+ls
+cd app/
+ls
+ls -la
+cd ..
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+sudo su gsure 
+cd /var/www/html/gsure.in
+git fetch --all
+ls -ls
