@@ -1,14 +1,3 @@
-make start
-nano Makefile
-make install
-nano Makefile
-sudo make update
-cat -e -t -v Makefile 
-sudo make update
-nano Makefile
-cat -e -t -v Makefile 
-nano Makefile
-cat -e -t -v Makefile 
 make update
 nano Makefile
 rm -rf Makefile 
@@ -1998,3 +1987,14 @@ sudo su gsure
 cd /var/www/html/gsure.in
 git fetch --all
 ls -ls
+cd /var/www/html/yellotasker.co/
+cat .git/config 
+git fetch --all
+git checkout html 
+ls -la
+nano /etc/apache2/sites-available/000-default.conf
+nano /etc/hosts
+sudo service apache2 restart 
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+exit
