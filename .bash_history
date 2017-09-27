@@ -1,8 +1,3 @@
-make update
-nano Makefile
-rm -rf Makefile 
-sudo apt-get install libapache2-mod-php
-locate httpd.conf
 cd /var/www/html/
 rm -rf .in.swp 
 nano info.php 
@@ -1997,4 +1992,9 @@ nano /etc/hosts
 sudo service apache2 restart 
 nano /etc/apache2/sites-available/000-default.conf
 sudo service apache2 restart 
+exit
+cd /var/www/html/event-bid
+git fetch --all
+nano .git/config 
+git pull origin www_release_1 
 exit
