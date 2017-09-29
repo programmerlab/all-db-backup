@@ -1,50 +1,3 @@
-cd /var/www/html/
-rm -rf .in.swp 
-nano info.php 
-sudo a2enmod rewrite
-sudo service apache2 restart
-sudo nano /etc/apache2/sites-enabled/000-default.conf
-ls
-git clone https://github.com/krsdata/eventbid.git
-git status
-sudo apt-get install git
-sudo apt-get instal composer
-curl -sS https://getcomposer.org/installer | sudo php [G -install-dir=/usr/local/bin -filename=composer
-sudo curl -sS https://getcomposer.org/installer | sudo php [G -install-dir=/usr/local/bin -filename=composer
-sudo apt-get update
-sudo apt-get install curl php7-cli git
-sudo apt-get install curl php-cli git
-php -v
-curl -sS https://getcomposer.org/installer | sudo php -- --install- dir=/usr/local/bin --filename=composer
-composeer
-composer
-sudo apt install composer
-cd eventbid/
-ls
-composer update
-sudo apt-cache search php-curl
-sudo apt-get update
-sudo apt-get install php-mcrypt 
-composer update
-sudo apt-get install phpunit
-sudo apt-get upgrade
-sudo /etc/init.d/apache2 restart
-composer update
-ls
-chmdo -R 777 storage/ bootstrap/cache/
-chmod  -R 777 storage/ bootstrap/cache/
-sudo apt-get install nodejs
-sudo apt-get install npm
-free -m
-ls
-cd /var/www/html/
-ls
-cd /var/www/html/yellotasker-angular/
-ls
-ngbuild
-cd /var/www/html/
-git clone git@github.com:krsdata/yellotasker-angular.git
-nano ~/.ssh/
 cd ~/.ssh/
 ssh-keygen -t rsa -C "krsdata.net@gmail.com" 
 nano id_rsa.pub 
@@ -1998,3 +1951,50 @@ git fetch --all
 nano .git/config 
 git pull origin www_release_1 
 exit
+cd /var/www/html/
+ls
+cd yellotasker.co/
+ls
+ls -la
+cd ..
+rm -rf yellotasker.co/
+git remote add origin https://github.com/krsdata/yellotasker.co.git
+git clone  https://github.com/krsdata/yellotasker.co.git
+ls
+cd yellotasker.co/
+
+ls
+ls -la
+git fetch --all
+ls
+git branch 
+ls
+git fetch && git checkout master
+git checkout master 
+ls
+cat .git/config 
+cd ..
+rm -rf yellotasker.co/
+git clone https://programmerlab@bitbucket.org/programmerlab/yellotasker.co.git
+ls
+cd yellotasker.co/
+ls
+cd src/
+ls
+cd ..
+cp -r src/assets .
+ls
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+npm install
+npm start
+ls 
+free -m
+sync; echo 3 > /proc/sys/vm/drop_caches
+free -m
+ls
+cd /var/www/html/
+ls
+cd usermod -d /var/www/html/yellotasker.co yellotasker
+sudo  usermod -d /var/www/html/yellotasker.co yellotasker
+sudo passwd yellotasker 
