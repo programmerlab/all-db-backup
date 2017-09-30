@@ -1,22 +1,3 @@
-cd ~/.ssh/
-ssh-keygen -t rsa -C "krsdata.net@gmail.com" 
-nano id_rsa.pub 
-cat id_rsa.pub 
-cd /var/www/html/
-git clone git@github.com:krsdata/yellotasker-angular.git
-cd yellotasker-angular/
-ls
-npm install 
-ng build
-apt install ng-build
-apt install ng-commion
-sudo apt install ng-commion
-sudo apt-get install ng-commion
-sudo apt-get install ng-common
-ng build
-444444444
-ls -la
-npm start
 npm 
 npm -v
 node -v
@@ -1998,3 +1979,22 @@ ls
 cd usermod -d /var/www/html/yellotasker.co yellotasker
 sudo  usermod -d /var/www/html/yellotasker.co yellotasker
 sudo passwd yellotasker 
+cd /var/www/html/event-bid
+cat app/app.js 
+nano app/app.js 
+sudo service apache2 restart 
+git branch 
+git branch -b  sep30
+git checkout -b  sep30
+git add app/ index.html 
+git commit -m "app"
+git push origin sep30 
+ls
+cat ~/.ssh/id_rsa.pub 
+git branch 
+git fetch --all
+git fetch --all -f 
+ls
+git fetch --all
+sudo git fetch --all
+exit
