@@ -1,50 +1,3 @@
-npm 
-npm -v
-node -v
-apt-get install nodejs
-sudo apt install nodejs-legacy
-node -V
-node -v
-curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
-apt-get install nodejs
-node -v
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-apt-get install nodejs
-node -v
-npm update
-npm start
-rm -rf node_modules
-apt-get autoremove 
-npm install 
-ng serve --open
-npm ng serve --open
-ng build
-npm start
-npm install -g angular-cli
-ng serve
-ls -la
-curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
-sudo apt-get install nodejs`
-sudo apt-get install nodejs
-ng server
-sudo apt-get autoremove
-node -v
-npm start
-ps
-ps -aux
-kill 6957
-npm start
-npm stop
-ls
-ls -la
-git pull origin master 
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-sudo apt-get install -y nodejs
-sudo apt-get install nodejs
-node -v
-sudo auto remove nodejs
-sudo apt-get remove nodejs
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 apt-get install nodejs
 npm start
 npm stop
@@ -1998,3 +1951,50 @@ ls
 git fetch --all
 sudo git fetch --all
 exit
+cd /var/www/html/event-bid
+ls
+git fetch --all
+cat ~/.ssh/id_rsa.pub 
+git fetch --all
+git branch 
+git checkout www_release_2 
+git checkout www_release_2  -f
+git pull origin 
+cd ..
+;s
+ls
+cd event-bid
+git pull origin www_release_2 
+ls
+git pull origin www_release_2 
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+ls
+ls -la
+nano /etc/hosts
+ls
+ls Kandy, I just got word from client. They want to stop the project.-la
+ls -la
+cd ..
+cd yellotasker.co/
+ls
+ls -la
+rm -rf assets e2e/ karma.conf.js assets/  node_modules/ package.json  protractor.conf.js  README.md  src/ tsconfig.json  tslint.json 
+ls
+ls 
+ls
+ls -la
+rm -rf .angular-cli.json  
+ls
+ls -la
+cd ..
+chmod  755 yellotasker.co/
+chmod  777 yellotasker.co/
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+ls
+ls -la
+ls
+cd event-bid
+git branch 
+git add --all
