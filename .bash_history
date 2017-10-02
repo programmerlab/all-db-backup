@@ -1,9 +1,3 @@
-apt-get install nodejs
-npm start
-npm stop
-ng serve --prod
-ls -la
-rm -rf e2e/ .editorconfig  karma.conf.js  node_modules/ npm-debug.log  package.json protractor.conf.js  README.md  src/ tsconfig.json  tslint.json 
 ls -la
 rm -rf .angular-cli.json 
 ls
@@ -1998,3 +1992,9 @@ ls
 cd event-bid
 git branch 
 git add --all
+cd /var/www/html/event-bid
+git fetch --all
+git pull origin 
+cd ..
+cd  eventbid
+git pull origin sep30
