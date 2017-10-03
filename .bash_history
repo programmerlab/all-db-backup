@@ -1,29 +1,3 @@
-ls -la
-rm -rf .angular-cli.json 
-ls
-cd dist/
-ls
-nano index.html 
-ls
-cd assets/
-ls
-cd css/
-ls
-nano style.css 
-cd ..
-nano styles.bundle.js
-sudo npm cache clean -f
-cd /var/www/html/
-ls
-mkdir marchworking
-cd  marchworking 
-nano /etc/apache2/sites-available/000-default.conf 
-nano /etc/hosts
-nano /etc/apache2/sites-available/000-default.conf 
-cd ..
-mkdir saisevaashram.org.in
-mkdir saisevaashram
-rm -rf saisevaashram.org.in
 sudo service apache2  restart 
 cd marchworking/
 git init 
@@ -1998,3 +1972,29 @@ git pull origin
 cd ..
 cd  eventbid
 git pull origin sep30
+cd /var/www/html/eventbid
+ls
+git status
+rm -rf ..env.swp
+exit
+cd /var/www/html/eventbid
+ls
+git branch 
+/home/hp/Downloads/ls
+ls
+sudo adduser kanika
+deluser kanika
+sudo adduser kanika
+sudo usermod -d /var/www/html/eventbid kanika
+chown -R kanika:kanika /var/www/html/eventbid
+chown -R kanika:kanika /var/www/html/event-bid
+sudo usermod -d /var/www/html/event-bid kanika
+deluser kanika
+kill -9 8292
+deluser kanika
+sudo adduser kanika
+sudo usermod -d /var/www/html/event-bid kanika
+chown -R kanika:kanika /var/www/html/event-bid
+cd ..
+cd event-bid
+git status
