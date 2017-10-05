@@ -1,16 +1,3 @@
-sudo service apache2  restart 
-cd marchworking/
-git init 
-git remote add origin git@github.com:krsdata/krsdata.com.git
-git pull origin master 
-ls
-rm -rf krsdata.zip 
-rm -rf google26c5bb835294ace7.html 
-rm  -rf BingSiteAuth.xml 
-nano index.html 
-sudo service apache2 restart 
-mkdir public_html
-mv index.html public_html/
 mv assets public_html/
 ls
 mv logo415.png  public_html/
@@ -1998,3 +1985,16 @@ chown -R kanika:kanika /var/www/html/event-bid
 cd ..
 cd event-bid
 git status
+sudo adduser vicky
+sudo usermod -d /var/www/html/yellotasker vicky
+cd /var/www/html/
+ls
+sudo chown -R vicky:vicky /var/www/html/yellotasker
+chmod 777 yellotasker
+cd  yellotasker
+chmod a-w vikcy 
+mkdir kk
+chmod a-w kk/
+touch kk.txt
+chmod -w kk.txt 
+exit
