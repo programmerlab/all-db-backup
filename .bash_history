@@ -1,58 +1,3 @@
-mv assets public_html/
-ls
-mv logo415.png  public_html/
-ls
-cd /var/www/html/saisevaashram/
-ls
-nano /etc/apache2/sites-available/000-default.conf 
-mkdir public_html 
-nano index.html
-rm -rf index.html 
-cd public_html/
-nano index.html
-cd /var/www/html/marchworking/
-nano public_html/index.html 
-cd /var/www/html/saisevaashram/
-public_html/
-ls
-mv saibaba/* public_html/
-ls
-nano public_html/index.html 
-cd /var/www/html/marchworking/
-ls
-cd public_html/
-ls
-nano index.html 
-cd /var/www/html/
-mkdir caroldata
-chmod -R 777 caroldata/
-ls
-exit
-cd /var/www/html/
-ls
-nano /etc/php/7.0/apache2/php.ini
-sudo service apache2 restart 
-nano /etc/php/7.0/apache2/php.ini
-exit
-nano /etc/php/7.0/apache2/php.ini
-sudo service apache2 restart 
-clear
-php --ini
-php --cnf
-locate .cnf
-ps -aux 
-exit
-top
-apt-get install sysstat
-mpstat
-exit
-ls
-ps -aux
-free -m 
-sudo apt-get autoremove 
-cd /var/www/html/
-ls
-cd caroldata/o
 cd caroldata/
 ls
 cd /var/www/html/
@@ -1998,3 +1943,58 @@ chmod a-w kk/
 touch kk.txt
 chmod -w kk.txt 
 exit
+cd /var/www/html/
+ls
+crontab -e 
+ls
+cd /var/www/html/
+rm -rf event-bid2/
+rm -rf intouchamerica intouchamerica.xyz/ caroldata-down/
+ls
+rm-rf blog/
+ls
+ls -la
+rm -rf gsure.in2/
+ls
+git gsure.in/
+git status
+ls 
+ls
+cat info.php 
+nano info.php 
+ls
+ls -la
+ls -lart
+nano info.php 
+nano command.sh
+nano info.php 
+ls -la
+nano info.php 
+ls -la
+sh command.sh 
+ls
+rm -rf kk/
+ls
+nano info.php 
+ls
+nano info.php 
+ls
+cd yellotasker.co/
+git pull origin 
+gi branch 
+git branch 
+nano /etc/apache2/sites-available/000-default.conf
+scp  root@206.72.201.45:/root/pull.sh
+scp  root@206.72.201.45:/root/pull.sh .
+ls
+cp -r pull.sh  /root/
+cd
+ls
+cat commit.sh 
+cat pull.sh 
+cd /var/www/html/yellotasker.c
+cd /var/www/html/yellotasker.co/
+git branch -a
+cd 
+git --git-dir=/var/www/html/yellotasker.co/.git/ --work-tree=/var/www/html/yellotasker.co/ pull origin master
+crontab -e 
