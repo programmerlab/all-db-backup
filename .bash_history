@@ -1,5 +1,3 @@
-cd caroldata/
-ls
 cd /var/www/html/
 ls
 composer create-project --prefer-dist laravel/laravel blog
@@ -1998,3 +1996,5 @@ git branch -a
 cd 
 git --git-dir=/var/www/html/yellotasker.co/.git/ --work-tree=/var/www/html/yellotasker.co/ pull origin master
 crontab -e 
+crontab -e
+git --git-dir=/var/www/html/yellotasker.co/.git/ --work-tree=/var/www/html/yellotasker.co/ pull origin master
