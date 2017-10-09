@@ -1,10 +1,3 @@
-cd /var/www/html/
-ls
-composer create-project --prefer-dist laravel/laravel blog
-cd blog/
-ls
-ls -la
-chmod -R 777 storage/ bootstrap/cache/
 cp -r public/index.php index.php
 nano  index.php 
 cd /var/www/html/
@@ -1998,3 +1991,10 @@ git --git-dir=/var/www/html/yellotasker.co/.git/ --work-tree=/var/www/html/yello
 crontab -e 
 crontab -e
 git --git-dir=/var/www/html/yellotasker.co/.git/ --work-tree=/var/www/html/yellotasker.co/ pull origin master
+cd /var/www/html/gsure.in/
+git pull origin master 
+git branch 
+git pull origin dev 
+git fetch --all
+sudo su gsure
+exit
