@@ -1,53 +1,3 @@
-cp -r public/index.php index.php
-nano  index.php 
-cd /var/www/html/
-ls
-mkdir  intouchamerica
-chmod 777 intouchamerica/
-cd intouchamerica/
-git init
-git remote add origin https://programmerlab@bitbucket.org/programmerlab/intouch-america.git
-git fetch --all
-git checkout ITA-15-AUG-2017 
-ls
-ls -la
-cd ..
-ls
-ls -la
-chmod 777 intouchamerica/
-cd intouchamerica/
-git pull origin ITA-15-AUG-2017 
-git checkout ITA-10-AUG-2017 
-nano /etc/php/7.0/apache2/php.ini
-exit
-ls
-cd /var/www/html/
-nano /etc/apache2/sites-available/000-default.conf 
-php -v
-lsb_release -a
-cd /var/www/html/
-ls
-ls -la
-uname 
-uname -a
-mkdir aarneel.com
-cd aarneel.com/
-git init
-git remoet add origin https://github.com/krsdata/aarneel.com.git
-git remote add origin https://github.com/krsdata/aarneel.com.git
-git pull origin dev
-git branch 
-git checkout dev 
-ls
-rm -rf aarneel.zip 
-nano /etc/apache2/sites-available/000-default.conf
-nano /etc/hosts
-sudo service apache2 restart 
-nano /etc/php/7.0/apache2/php.ini
-sudo service apache2 restart 
-clear
-cd /var/www/html/
-ls
 nano /etc/apache2/sites-available/000-default.conf
 nano /etc/hosts
 sudo service apache2 restart 
@@ -1997,4 +1947,54 @@ git branch
 git pull origin dev 
 git fetch --all
 sudo su gsure
+exit
+cd /var/www/html/yellotasker.co/
+git pull origin master 
+cd ..
+exit
+cd /var/www/html/yellotasker.co/
+git pull origin master 
+git fetch -all 
+git fetch --all 
+pull origin master 
+nano /etc/apache2/sites-available/
+nano /etc/apache2/sites-available/000-default.conf
+git pull origin master 
+cat .git/config 
+git pull origin master 
+ls
+ls -la
+cd src/
+ls
+cd assets/
+ls
+cd img/
+ls
+cd ..
+nano index.html 
+git checkout index.html
+ls
+git branch 
+git fetch --all
+cat .git/config 
+git branch -a
+git fetch --all
+git checkout www_sprint_1
+nano index.html 
+git pull origin www_sprint_1
+cat .git/config 
+nano /etc/apache2/sites-available/000-default.conf
+ls -la
+cat .git/config 
+ls
+git status
+cd ..
+cd 
+cat pull.sh 
+crontab -e
+cd /var/www/html/yellotasker.co/
+git checkout www_sprint_1
+git pull origin www_sprint_1 
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
 exit
