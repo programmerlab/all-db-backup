@@ -1,14 +1,3 @@
-nano /etc/apache2/sites-available/000-default.conf
-nano /etc/hosts
-sudo service apache2 restart 
-cd /var/www/html/
-ls
-mkdir eventbid-main
-nano /etc/apache2/sites-available/000-default.conf
-mkdir eventbid.com.au
-cd eventbid.com.au/
-nano index.html
-cd ..
 cd eventbid
 git branch 
 git pull origin dev
@@ -1998,3 +1987,14 @@ git pull origin www_sprint_1
 nano /etc/apache2/sites-available/000-default.conf
 sudo service apache2 restart 
 exit
+cd /var/www/html/yellotasker
+git pull origin 
+git checkout sales-program 
+git checkout composer.lock index.php
+git checkout sales-program 
+composer update 
+ls
+nano config/app.php 
+nano composer.json 
+composer updaet 
+composer update
