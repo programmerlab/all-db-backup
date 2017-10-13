@@ -1,6 +1,3 @@
-cd eventbid
-git branch 
-git pull origin dev
 git pull app/
 gitcheckout app/
 git checkout app/
@@ -1998,3 +1995,6 @@ nano config/app.php
 nano composer.json 
 composer updaet 
 composer update
+cd /var/www/html/gsure.in/
+git pull origin 
+exit
