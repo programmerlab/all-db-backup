@@ -1,17 +1,3 @@
-git pull app/
-gitcheckout app/
-git checkout app/
-git fetch --all
-git branch -a
-git pull origin dev 
-ps -aux
-ps -aux | grep 'php'
-sudo apt-get update
-Only_full_group_by
-sudo only_full_group_by
-cd /var/www/html/
-ls
-cd intouchamerica/
 ping webpedialab.com
 nano /etc/php/7.0/apache2/php.ini
 sudo service apache2 restart 
@@ -1997,4 +1983,18 @@ composer updaet
 composer update
 cd /var/www/html/gsure.in/
 git pull origin 
+exit
+cd /var/www/html/
+ls
+calc
+ls
+cd  saisevaashram/
+ls
+cd public_html/
+ls
+cd ..
+scp -r saisevaashram  root@139.59.63.136:/var/www/html/
+scp -r aarneel.com  root@139.59.63.136:/var/www/html/
+ls
+scp -r programmerlab.com  root@139.59.63.136:/var/www/html/
 exit
