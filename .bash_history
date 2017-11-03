@@ -1,79 +1,3 @@
-ping webpedialab.com
-nano /etc/php/7.0/apache2/php.ini
-sudo service apache2 restart 
-nano /etc/php/7.0/apache2/php.ini
-sudo service apache2 restart 
-sudo service mysql restart 
-exit
-cd /var/www/html/
-ls
-git clone https://github.com/krsdata/eventbid.git
-cd eventbid
-git  branch 
-git pull origin dev 
-cd ..
-git clone git@github.com:krsdata/event-bid.git
-git clone 
-git clone  https://github.com/krsdata/growsure.git
-git clone https://programmerlab@bitbucket.org/programmerlab/growsure.git
-mkdir gsure.in
-https://programmerlab@bitbucket.org/programmerlab/growsure.git
-git cloen https://programmerlab@bitbucket.org/programmerlab/growsure.git
-git clone https://programmerlab@bitbucket.org/programmerlab/growsure.git
-cd gsure.in/
-git clone https://programmerlab@bitbucket.org/programmerlab/growsure.git
-cd ..
-mkdir intouchamerica
-mkdir intouchamerica.xyz
-cd intouchamerica.xyz/
-git  init 
-git remote add origin https://programmerlab@bitbucket.org/programmerlab/intouch-america.git
-git fetch --all
-cd ..
-mkdir programmerlab.com
-rm -rf programmerlab.com/
-git clone https://github.com/krsdata/programmerlab.com.git
-git clone https://github.com/krsdata/recapitafinance.git
-git clone https://github.com/krsdata/sidhisanskriti.git
-git clone git@github.com:krsdata/singlesteps.git
-git clone https://github.com/krsdata/syncabi.git
-git clone https://github.com/krsdata/syncabi-api.git
-git clone https://github.com/krsdata/yellotasker.git
-cd yellotasker
-git fetch --all
-cd ..
-mkdir yellotasker-api
-cd yellotasker-api/
-git init 
-git remote add origin https://github.com/krsdata/ytasker.git
-git  fetch --all
-sudo nano /etc/apache2/sites-available/000-default.conf
-sudo nano /etc/hosts
-sudo nano /etc/apache2/sites-available/000-default.conf
-sudo service apache2 restart 
-cd /var/www/html/yellotaskerl
-cd /var/www/html/yellotasker
-nano .env
-cd ..
-nano event/.env
-sudo nano event/.env
-cd eventbid
-sudo nano .env
-cd ..
-cd growsure
-nano .env
-cd ..
-cd yellotasker-api/
-nano .env
-cd ..
-nano sidhisanskriti/.env
-nano syncabi-api/.env
-mkdir  kundanroy/
-nano kundanroy/index.html
-nano /etc/apache2/sites-available/000-default.conf
-sudo service apache2 restart 
-chmod -R 777 yellotasker/storage/ yellotasker/bootstrap/cache/
-cd yellotasker-api/
 ls
 ls -la
 git fetch -all
@@ -1998,3 +1922,79 @@ scp -r aarneel.com  root@139.59.63.136:/var/www/html/
 ls
 scp -r programmerlab.com  root@139.59.63.136:/var/www/html/
 exit
+cd /var/www/html/
+cd yellotasker
+git fetch --all
+git checkout mail
+git checkout composer.json composer.lock
+git checkout composer.json composer.lock config/app.php
+git checkout mail
+git pull origin mail
+chmod -R 777 storage/ bootstrap/cache/
+cat .env
+nano .env
+git pull origin mail l
+git pull origin mail 
+git status
+rm -rf ..htaccess.swp
+git rm storage/framework/views/* --cached
+git rm  --cached storage/framework/views/*
+rm -rf storage/framework/views/*
+git status
+git add --all
+git commit -m "delete"
+git pull origin mail
+git status
+git commit 
+sudo apt-get remove nodejs
+nano /var/www/html/yellotasker/.git/COMMIT_EDITMSG 
+git comit -m "mail merge" .
+git commit -m "mail merge" .
+git commit -i "mail merge" .
+git commit -i "mail merge" 
+git commit -m "mail merge" 
+git config --global kroy
+git config --global user.email kroy.iips@gmail.com
+git pull origin mail
+nano .env
+composer dumpautoload
+cd resources/views/
+ls
+cd emails/
+ls
+cd ..
+git branch 
+git fetch --all
+git pull origin mail 
+git checkout mail
+php artisan cache:clear
+git fetch --all
+git checkout email il
+git checkout email
+git checkout storage/
+git checkout email
+git add .
+git commit -m "storage"
+git checkout email
+git pull origin email
+php artisan -vvv
+php artisan --version
+cd /var/www/html/yellotasker-api/resources/views/
+ls
+cd ..
+cd yellotasker
+ls
+cd ..
+cd yellotasker-api/
+ls
+git fetch --all
+cd ..
+cd yellotasker
+ls
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+nano .env
+php artisan config:clear
+nano .env
+git pull origin email 
+nano .env
