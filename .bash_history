@@ -1,13 +1,3 @@
-ls
-ls -la
-git fetch -all
-git fetch --all
-git branch -a
-git checkout api 
-cd ..
-cd /var/www/html/eventbid
-git branch 
-git checkout dev
 composer update
 cd ..
 cd yellotasker
@@ -1998,3 +1988,13 @@ php artisan config:clear
 nano .env
 git pull origin email 
 nano .env
+cd /var/www/html/yellotasker
+git fetch --all
+git branch 
+git pull origin email
+git pull origin email 
+chmod -R 777 storage/
+mkdir storage/images
+chmod -R 777 storage/
+git pull origin email 
+chmod -R 777 storage/
