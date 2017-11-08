@@ -1,74 +1,3 @@
-composer update
-cd ..
-cd yellotasker
-ls
-git branch -a
-git checkout cms 
-composer update 
-cd ..
-ls -la
-cd growsure/
-composer update 
-ls -la
-cd ..
-cd gsure.in/
-ls
-cd ..
-cd growsure/
-git checkout dev
-ls
-ls -la
-cat .env
-ls
-git branch 
-git pull origin dev 
-ls -la
-git pull origin dev2
-git commit -m "env" .env
-git status
-git staus
-git status
-git branch -a
-git checkout dev 
-git checkout dev2
-ls -la
-git checkout dev 
-git pull origin dev2;
-git stash 
-nano nan
-nano resources/views/emails/welcome.blade.php
-git status
-rm -rf .nan.swp 
-git pull origin dev 
-git fetch --all
-git checkout develop 
-git branch 
-git checkout develop 
-git reset --hard HEAD
-git status
-git checkout develop 
-git branch 
-cat .env
-git checkout dev 
-git checkout master 
-git checkout develop 
-nano .env
-chmod -R 777 storage/ bootstrap/cache/.gitignore 
-chmod -R 777 storage/ bootstrap/cache/
-composer update 
-cd /var/www/html/yellotasker
-nano .env
-locate php.ini
-rm -rf /etc/php/7.0/apache2/php.ini.save
-nano /etc/php/7.0/apache2/php.ini
-sudo service apache2 restart
-locate php.ini
-sudo rm -rf /etc/php/7.0/apache2/php.ini.save
-rm -rf /var/tmp/php.ini.swn /var/tmp/php.ini.swo /var/tmp/php.ini.swp
-locate  .ini
-locate php.ini 
-nano /etc/php/7.0/cli/php.ini
-sudo service apache2 restart 
 nano /etc/php/7.0/fpm/php.ini
 sudo service apache2 restart 
 nano /usr/lib/php/7.0/php.ini-production
@@ -1998,3 +1927,74 @@ mkdir storage/images
 chmod -R 777 storage/
 git pull origin email 
 chmod -R 777 storage/
+ssh root@139.59.63.136
+exit
+ls
+cd /var/www/html/
+ls
+mkdir vdesign
+cd vdesign/
+ls
+git inti
+git init 
+git remoet add origin git@github.com:krsdata/metronic.git
+git remote add origin git@github.com:krsdata/metronic.git
+git fetch --all
+ls -la
+git checkout master 
+git checkout -b design 
+ls
+nano /etc/apache2/sites-available/000-default.conf
+cd theme/
+ls
+nano /etc/apache2/sites-available/000-default.conf
+nano /etc/hosts
+sudo service apache2 restart 
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+nano /etc/apache2/sites-available/000-default.conf
+y
+sudo service apache2 restart 
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+cd ..
+cp -r theme/assets .
+ls
+cd theme/
+ls
+cd ..
+cp -r theme/admin_4 .
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+cp -r assets admin_4/
+cd admin_4/
+ls
+cd ..
+mv admin_4 admin
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+ls
+rm -rf theme/
+rm -rf _start/
+sudo adduser vdesign
+sudo usermod -d /var/www/html/vdesign vdesign
+sudo chown -R vdesign:vdesign  /var/www/html/vdesign/
+chmod -R 777 /var/www/html/vdesign/
+cd ..
+ls
+mkdir demo.infowaynic.com
+cd demo.infowaynic.com/
+git inti
+git init
+git remote add origin git@github.com:krsdata/newborndesign.git
+git pull origin master 
+ls
+nano /etc/apache2/sites-available/000-default.conf
+nano /etc/hosts
+sudo service apache2 restart 
+git pull origin 
+git pull origin master 
+
+sudo adduser infowaynic
