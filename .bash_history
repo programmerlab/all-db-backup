@@ -1,39 +1,3 @@
-nano /etc/php/7.0/fpm/php.ini
-sudo service apache2 restart 
-nano /usr/lib/php/7.0/php.ini-production
-nano /usr/lib/php/7.0/php.ini-development
-sudo service mysql status
-sudo service mysql start
-sudo service mysql stop
-sudo service mysql start
-/etc/init.d/httpd restart
-/etc/init.d restart
-locate php.ini
-nano /etc/php/7.0/apache2/php.ini
-sudo service apache2 restart
-locate  mysql.ini
-nano /etc/mysql/my.cnf 
-sudo service mysql restart 
-nano /etc/mysql/my.cnf 
-sudo service mysql stop 
-sudo service mysql start 
-cd /var/www/html/
-nano .htaccess
-y
-nano .htaccess
-locate phpmyadmin.conf 
-nano /etc/apache2/conf-available/phpmyadmin.conf
-nano /etc/dbconfig-common/phpmyadmin.conf
-nano /etc/apache2/conf-enabled/phpmyadmin.conf
-locate php.im
-locate php.in
-nano /etc/php/7.0/apache2/php.ini
-nano /etc/phpmyadmin/apache.conf
-udo service apache2 restart 
-sudo service apache2 restart 
-cd /var/www/html/intouchamerica.xyz/
-git branch 
-git branch -a
 git fetch --all
 cat .git/config 
 exit
@@ -1998,3 +1962,39 @@ git pull origin
 git pull origin master 
 
 sudo adduser infowaynic
+cd /var/www/html/
+ls
+mkdir admin.infowaynic.com
+cd admin.infowaynic.com
+git init
+sudo passwd infowaynic
+sudo usermod -d /var/www/html/demo.infowaynic.com
+sudo usermod -d /var/www/html/demo.infowaynic.com infowaynic
+ls -la
+git remote add origin git@github.com:krsdata/newborn.git
+git fetch --all
+git pull origin master 
+git checkout master 
+ls
+nano .env
+cat .git/config 
+ls
+composer update 
+cd ..
+cd demo.infowaynic.com/
+ls
+sudo adduser gabriel
+cd /var/www/html/yellotasker
+git pull origin email 
+nano /etc/apache2/sites-available/000-default.conf
+nano /etc/hosts
+sudo service apache2 restart 
+cd ..
+cd admin.infowaynic.com/
+ls
+chmod -R 777 storage/ bootstrap/cache/
+cd ..
+sudo usermod -d  /var/www/html/demo.infowaynic.com/ gabriel
+chmod -R gabriel:gabriel /var/www/html/demo.infowaynic.com
+chown -R gabriel:gabriel /var/www/html/demo.infowaynic.com
+sudo chmod -R 777 demo.infowaynic.com/
