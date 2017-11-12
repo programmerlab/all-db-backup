@@ -1,19 +1,3 @@
-git fetch --all
-cat .git/config 
-exit
-ls
-whereis php
-whereis php.ini
-cd /etc/php
-ls
-cd 7.0/
-ls
-cd apache2/
-ls
-cd conf.d/
-ls
-cd ../
-nano php.ini
 service apache2 restart
 cd /etc/apache2/
 ls
@@ -1998,3 +1982,19 @@ sudo usermod -d  /var/www/html/demo.infowaynic.com/ gabriel
 chmod -R gabriel:gabriel /var/www/html/demo.infowaynic.com
 chown -R gabriel:gabriel /var/www/html/demo.infowaynic.com
 sudo chmod -R 777 demo.infowaynic.com/
+cd /var/www/html/yellotasker
+git pull origin email 
+cd /var/www/html/yellotasker
+git pull  origin email 
+d cd 
+cd /var/www/html/yellotasker
+ls
+git pull origin email
+cd /var/www/html/yellotasker
+git pull origin email 
+cd /var/www/html/yellotasker
+git  pull origin email
+exit
+cd /var/www/html/yellotasker
+git pull origin email 
+cat resources/views/emails/forgot_password_link.blade.php
