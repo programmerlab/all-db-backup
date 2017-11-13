@@ -1,28 +1,3 @@
-service apache2 restart
-cd /etc/apache2/
-ls
-cd sites-enabled/
-ls
-nano 000-default.conf 
-cd /var/www/html/
-ls
-nano info.php 
-nano /etc/php/7.0/apache2/php.ini
-service apache2 restart
-nano /etc/php/7.0/apache2/php.ini
-service apache2 restart
-nano /etc/php/7.0/apache2/php.ini
-service apache2 reload
-ps aux
-nano /etc/php/7.0/fpm/php.ini 
-service apache2 reload
-nano /etc/php/7.0/apache2/php.ini
-sudo service apache2 restart 
-nano /etc/php/7.0/apache2/php.ini
-sudo service apache2 restart 
-nano /etc/php/7.0/apache2/php.ini
-sudo service apache2 restart
-nano /etc/php/7.0/apache2/php.ini
 y
 sudo service apache2 restart
 nano /etc/php/7.0/apache2/php.ini
@@ -1998,3 +1973,28 @@ exit
 cd /var/www/html/yellotasker
 git pull origin email 
 cat resources/views/emails/forgot_password_link.blade.php
+cd /var/www/html/yellotasker
+cd ..
+cd demo.infowaynic.com/
+ls
+cat .git/config 
+git fetch --all
+git branch -a
+rm -f .git/
+git init
+git remote add origin git@github.com:krsdata/newborn.git
+cat .git/config 
+rm -rf .git/
+cat .git/config 
+git init
+git remote add origin git@github.com:krsdata/newborn.git
+git fetch --all
+git checkout design 
+ls -la
+git branch 
+git branch -a
+git checkout -b test
+git add --all
+git commit -m "design" 
+git checkout design 
+git pull origin design 
