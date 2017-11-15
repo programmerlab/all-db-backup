@@ -1,11 +1,3 @@
-y
-sudo service apache2 restart
-nano /etc/php/7.0/apache2/php.ini
-cat  /etc/php/7.0/apache2/php.ini
-nano /etc/php/7.0/apache2/php.ini
-cp -r /etc/php/7.0/apache2/php.ini /home/
-cd /home/
-ls
 cd ..
 mv /etc/php/7.0/apache2/php.ini /etc/php/7.0/apache2/php-old.ini
 sudo nano /etc/php/7.0/apache2/php.ini
@@ -1998,3 +1990,11 @@ git add --all
 git commit -m "design" 
 git checkout design 
 git pull origin design 
+cd /var/www/html/
+ls
+cd vdesign/
+ls
+chmod -R 777 prem/
+nano /etc/apache2/sites-available/000-default.conf
+nano /etc/hosts
+sudo service apache2 restart 
