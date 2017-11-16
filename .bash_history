@@ -1,24 +1,3 @@
-cd ..
-mv /etc/php/7.0/apache2/php.ini /etc/php/7.0/apache2/php-old.ini
-sudo nano /etc/php/7.0/apache2/php.ini
-sudo service apache2 restart 
-sudo nano /etc/php/7.0/apache2/php.ini
-sudo service apache2 restart
-cd /var/www/html/event-bid/
-git pull origin master 
-sudo apt-get install php-mysql
-nano /etc/php/7.0/apache2/php.ini
-sudo service apache2 start 
-cd /var/www/html/intouchamerica
-ls
-CD ..
-cd ..
-cd intouchamerica.xyz/
-ls
-ls -la
-git fetch --all
-ls
-git checkout out swapnil-23-aug 
 git checkout swapnil-23-aug 
 nano wp-config.php 
 sudo adduser swapnil
@@ -1998,3 +1977,24 @@ chmod -R 777 prem/
 nano /etc/apache2/sites-available/000-default.conf
 nano /etc/hosts
 sudo service apache2 restart 
+cd /var/www/html/
+mkdir kundanroy.com
+cd kundanroy.com/
+nano index.html
+nano  /etc/apache2/sites-available/000-default.conf
+nano /etc/hosts
+sudo service apache2 restart 
+cd /var/www/html
+ls
+sudo chmod -R 777 vdesign/ 
+ls
+cd vdesign/
+ls
+cd ..
+cd vdesign/
+exit
+cd /var/www/html/
+ls
+cd admin.infowaynic.com/
+ls
+cat .git/config 
