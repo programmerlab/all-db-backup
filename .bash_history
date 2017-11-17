@@ -1,25 +1,3 @@
-git checkout swapnil-23-aug 
-nano wp-config.php 
-sudo adduser swapnil
-sudo usermod -h  /var/www/html/intouchamerica.xyz/ swapnil
-sudo usermod -h swapnil  /var/www/html/intouchamerica.xyz/ 
-sudo usermod -d  /var/www/html/intouchamerica.xyz/ swapnil
-sudo chown -R swapnil:swapnil  /var/www/html/intouchamerica.xyz/ 
-sudo su swapnil
-sudo apt-get update
-sudo apt-get install vsftpd
-sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig
-sudo ufw status
-sudo ufw allow 20/tcp
-sudo ufw allow 21/tcp
-sudo ufw allow 990/tcp
-sudo ufw statu
-sudo ufw status
-sudo nano /etc/vsftpd.conf
-apt-get install python-software-properties
-sudo add-apt-repository ppa:thefrontiergroup/vsftpd
-nano /etc/vsftpd.conf
-sudo service vsftpd restart
 sudo automysqlbackup
 sudo apt-get install automysqlbackup
 sudo automysqlbackup
@@ -1998,3 +1976,25 @@ ls
 cd admin.infowaynic.com/
 ls
 cat .git/config 
+cd /var/www/html
+ls
+nano /etc/apache2/sites-available/000-default.conf
+cd vdesign/
+ls
+chmod -R 777 assets/
+ls
+cd ..
+chmod -R 777 vdesign/
+ls
+cp -r  vdesign/* kundanroy.com/
+cd vdesign/
+ls
+cd prem/
+ls
+nano page_user_login_1.html 
+chmod -R 777 img/
+cd ..
+ld
+ls
+cd ..
+ls
