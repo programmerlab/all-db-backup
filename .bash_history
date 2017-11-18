@@ -1,104 +1,3 @@
-sudo automysqlbackup
-sudo apt-get install automysqlbackup
-sudo automysqlbackup
-sudo nano /etc/default/automysqlbackup
-ls /var/lib/automysqlbackup
-ls -R /var/lib/automysqlbackup/daily
-ls -R /var/lib/automysqlbackup/monthly
-ls -R /var/lib/automysqlbackup/weekly
-cd /var/backups/
-ls
-cd ..
-cd /var/lib/
-ls
-cd automysqlbackup/
-ls
-cd daily/
-ls
-cd gsure
-ls
-cd ..
-ls -R /var/lib/automysqlbackup/daily
-cd /var/lib/automysqlbackup/
-ls
-cd daily/
-ls
-cd eventbid/
-ls
-cd ..
-cd ytasker/
-ls
-cd
-ls -R /var/lib/automysqlbackup/daily
-crontab -e
-cat crontab -e
-crontab -e
-cron
-crontab -l
-ps -aux
-crontab -e
-sudo    /home/kd
-sudo mkdir   /home/kd
-cd /home/
-ls
-rm -rf kandy kd
-ls
-cd /var/backups/
-ls
-cd ..
-cd 
-history 
-cd /var/backups/
-ls
-cd 
-crontab -e
-ls -R /var/lib/automysqlbackup/daily
-cd  /var/lib/automysqlbackup/daily/
-nano /etc/hosts
-d
-cd
-sudo aduser manpreet
-sudo adduser manpreet
-sudo usermod -d /var/www/html/yellotasker-api/ manpreet
-sudo chown -R manpreet:manpreet /var/www/html/yellotasker-api/
-sudo su manpreet
-sudo su manpreet 
-sud su manpreet
-sudo su manpreet 
-sudo adduser evenbid
-sudo usermod -d /var/www/html/event-bid/ eventbid
-sudo adduser eventbid
-sudo usermod -d /var/www/html/event-bid/ eventbid
-sudo chown -R eventbid:eventbid  /var/www/html/event-bid/ 
-sudo su eventbid 
-sudo adduser gsure
-sudo usermod -d  /var/www/html/gsure.in/ gsure
-sudo chown -R gsure:gsure  /var/www/html/gsure.in/ 
-sudo su gsure 
-sudo adduser yellotasker
-/etc/init.d/crond stop
-crontab  -l
-pkill -u root  cron
-ls -la /etc/cron.hourly/
-ls -la /etc/cron.daily/
-ls -la /etc/cron.weekly/
-ls -la /etc/cron.daily/
-crontab -l  stop
-ps -aux
-kill 24435  24434 24400 24397
-top -p
-top
-pkill     cron
-ps -aux | grep "cron" 
-kill 2466 
-/etc/init.d/cron stop
-ps aux
-cd /var/www/html/programmerlab.com/
-ls
-ls -la
-nano index.php 
-nano /etc/apache2/sites-available/000-default.conf
-ls -la
 cat index.html 
 rm -rf index.html 
 nano wp-config.php 
@@ -1997,4 +1896,105 @@ cd ..
 ld
 ls
 cd ..
+ls
+cd /var/www/html/
+cd kundanroy.com/
+ls
+git clone https://programmerlab@bitbucket.org/programmerlab/hospital.git
+cd hospital/
+ls
+ls -la
+mysqldump -u root -p hospital_hospit < hospital.sql
+hostname
+ipconfig
+ifconfig
+mysqldump -u root -p hospital_hospit < hospital.sql
+nano wp-config.php 
+sudo mkdir /home/hospital/public_html
+sudo mkdir /home/hospital/
+sudo mkdir /home/hospital/public_html
+cp -r wp-content /home/hospital/public_html/
+mysql status
+sudo service mysql status
+cd /home/hospital/
+cd public_html/
+ls
+cp -r /var/www/html/kundanroy.com/hospital/* .
+cp -r /var/www/html/kundanroy.com/hospital/.* .
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+ls
+ls -la
+nano k.txt
+chmod -r 777 k.txt 
+chmod  777 k.txt 
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+nano /var/www/html/kundanroy.com
+cd  /var/www/html/kundanroy.com
+ls
+mkdir public_html
+cd public_html/
+ls
+nano k.txt
+nano /etc/apache2/sites-available/000-default.conf
+cd /var/www/html/kundanroy.com/hospital/public_html
+cd ..
+ls
+cd hospital/
+ls
+cd ..
+mv hospital hospital2
+mkdir hospital
+cd hospital
+mkdir public_html
+cd ..
+cp -r hospital2/* cd hospital/public_html/
+cp -r hospital2/*  hospital/public_html/
+cp -r hospital2/.*  hospital/public_html/
+cd hospital/public_html/
+ls
+ls -la
+cat .user.ini 
+nano .user.ini 
+cd /var/www/html/kundanroy.com/hospital/public_html/
+;s
+ls
+sudo service apache2 restart 
+nano /etc/apache2/sites-available/000-default.conf
+cat index.html 
+rm -rf index.html 
+ls
+rm -rf public_html
+ls
+nano index.php 
+[A
+nano index.php 
+nano wp-config.php 
+;s -la
+ls -la
+mv wp-config.php wp-config.php2
+cp -r wp-config-sample.php wp-config.php
+nano wp-config.php
+rm -rf .user.ini 
+ls -la
+cat .htaccess
+rm -rf .htaccess
+cd /var/www/html/kundanroy.com/public_html/
+ls
+cd ..
+rm -rf public_html/
+cd hospital/public_html/
+ls
+rm -rf php.ini .
+rm -rf php.ini
+ls'
+
+ls
+;
+
+
+
+
+
 ls
