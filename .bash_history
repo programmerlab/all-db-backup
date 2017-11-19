@@ -1,73 +1,3 @@
-cat index.html 
-rm -rf index.html 
-nano wp-config.php 
-git branch 
-git branch -a
-git fetch --all
-git checkout origin/
-git checkout dev 
-nano  wp-config.php 
-nano index.php 
-rm -rf index.html 
-7ls
-ls
-cd /var/www/html/yellotasker-api/
-ls
-ls -la
-chmod -R 777 storage/ bootstrap/cache/
-nano /etc/apache2/sites-available/000-default.conf
-cd /var/www/html/eventbid.com.au/
-cd .
-cd ..
-cd event-bid/
-cat .git/config 
-cd ..
-cd eventbid.com.au/
-git init
-git remote add origin git@github.com:krsdata/event-bid.git
-git fetch --all
-ls
-git checkout master 
-ls
-rm -rf  index.html 
-git pull origin master 
-ls
-cd ..
-cp -r event-bid/* eventbid.com.au/
-cd eventbid.com.au/
-ls -la
-rm -rf git@github.com:krsdata/event-bid.git
-rm -rf eventBid.csproj  eventBid.csproj.user eventBid.csproj.vspscc   .git  index.html  obj Properties ?.pub Web.config Web.Debug.config Web.Release.config
-ls -la
-rm -rf app/
-ls -la
-rm -rf  ?
-ls
-ls -la
-cd ..
-cp -r event-bid/* eventbid.com.au/
-cd eventbid.com.au/
-ls
-eventbid.com.au/
-ls -la
-cat Web.config 
-cat Web.Release.config
-cd 
-nano /etc/apache2/sites-available/000-default.conf
-sudo service apache2 restart 
-chmod -R 777 /var/www/html/eventbid.com.au/
-cd /var/www/html/intouchamerica.xyz/
-cat .git/config 
-git branch 
-git status 
-ls -la
-rm -rf var
-git branch 
-git status
-git checkout ITA-3-sep-2017
-git checkout -b  ITA-3-sep-2017
-git commit -m "new setup" 
-git commit -m "new setup" .
 git add .
 git commit -m "new setup" 
 git push origin ITA-3-sep-2017
@@ -1998,3 +1928,73 @@ ls
 
 
 ls
+cd /var/www/html/kundanroy.com/
+ls
+cd hospital
+ls
+cd public_html/
+ls
+cd ..
+rm -rf public_html/*
+cd public_html/
+ls
+ls -la
+cat .git/config 
+ls
+cd ..
+rm -rf public_html/
+git init 
+git remote add origin https://programmerlab@bitbucket.org/programmerlab/hospital.git
+git fetch --all
+ls
+git checkout master 
+ls -la
+em -rf 2.html .user.ini test.txt wp-content1/ wp-admin1
+ls -la
+rm -rf .user.ini 
+ls -la
+rm -rf php.ini
+ls
+ls -la
+rm -rf wp-content1
+sudo rm -rf wp-admin1
+ls -la
+rm -rf wp-admin
+nano /etc/apache2/sites-available/000-default.conf
+cd wp-content/
+ls
+cd plugins/
+ls
+mv revslider revslider2
+ls -la
+cd ..
+nano wp-config.php 
+sudo service apache2 restart 
+nano wp-config.php 
+nano .htaccess
+mv .htaccess .htaccess-old
+nano .htaccess
+ls -la
+rm -rf 2.html 
+ls -la
+rm -rf ho
+rm -rf home.php hospital.sql 
+ls -la
+rm -rf wp-config2.php 
+nano wp-config.php 
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+git status
+git add --all
+git branch 
+git checkout -b dev 
+git checkout -b hospital
+git push origin hospital 
+git commit -m "hospital"
+git push origin hospital 
+ls -la
+mysqldump -u root -p hospital > hospital.sql
+ls -la
+git add --all
+git commit -m "sql"
+git push origin hospital 
