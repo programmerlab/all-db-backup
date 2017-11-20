@@ -1,95 +1,3 @@
-git add .
-git commit -m "new setup" 
-git push origin ITA-3-sep-2017
-cat wp-config.php 
-sudo apt-get update
-sudo apt-get autoremove 
-sudo apt-get php-gettext
-sudo apt-get install php-gettext
-sudo apt-get install-f  php-gettext
-sudo apt-get install -f  php-gettext
-sudo apt-get install php-gettext
-sudo apt-get autoremove 
-sudo apt-get clean
-sudo apt-get install php-mbstring php7.0-mbstring php-gettext
-cd usr/share/php
-cd /usr/share/php
-ls
-ls -la
-cd php-gettext/
-ls
-usr/share/phpls -la
-ls 
-ls -la
-sudo service apache2 restart
-crontab -e
-ls -R /var/lib/automysqlbackup/daily
-cd /var/lib/automysqlbackup/daily/
-ls
-cd eventbid/
-ls
-ls -la
-rm -rf eventbid_2017-09-01_14h57m.Friday.sql.gz 
-ls -R /var/lib/automysqlbackup/daily
-ls
-ls -R /var/lib/automysqlbackup/daily
-ls
-ls -la
-ls /var/lib/automysqlbackup
-ls -R /var/lib/automysqlbackup/daily
-ls -R /var/lib/automysqlbackup/weekly
-cd
-sudo automysqlbackup
-cd /var/lib/automysqlbackup/daily/
-cd eventbid/
-ls
-rm -rf eventbid_2017-09-03_06h18m.Sunday.sql.gz 
-sudo automysqlbackup
-ls
-mv eventbid_2017-09-02_06h19m.Sunday.sql.gz 
-mv eventbid_2017-09-03_06h19m.Sunday.sql.gz  eventbid_2017-09-02_06h19m.Sunday.sql.gz 
-ls
-sudo automysqlbackup
-ls -la
-crontab -e
-ls /var/lib/automysqlbackup
-ls -R /var/lib/automysqlbackup/weekly
-sudo automysqlbackup
-ls -R /var/lib/automysqlbackup/weekly
-CC .
-CD
-cd ..
-cd weekly/
-ls
-cd eventbid/
-ls
-sudo automysqlbackup
-ls
-sudo nano /etc/default/automysqlbackup
-cd
-cd /var/www/html/caroldata/
-ls
-sportsweb/
-ls
-ls -la
-cd sportsweb/
-ls
-cd application/config/
-ls
-nano database.php 
-cd ..
-mv caroldata/ caroldata-down
-sudo su kandy 
-cd /var/www/html/eventbid
-ls
-cat .env
-cd ..
-cat yellotasker/.env
-cd eventbid
-nano .env
-cd ..
-cd yellotasker-api/
-git branch 
 git pull origin api
 cat .env
 nano .env
@@ -1998,3 +1906,95 @@ ls -la
 git add --all
 git commit -m "sql"
 git push origin hospital 
+cat /var/www/html/yellotasker/resources/views/emails/forgot_password_link.blade.php 
+nano /var/www/html/yellotasker/resources/views/emails/forgot_password_link.blade.php 
+cd /var/www/html/
+git status
+cd yellotasker
+git status
+git branch 
+git status
+git pull origin email 
+cat .env
+git pull origin email 
+git add --all
+git commit  -m "email"
+git push origin email 
+git pull origin email 
+git checkout storage/
+git rm -rf storage/framework/views/6c803470d391529636e213aeeee0b8cd0faddd9e.php
+git status
+git rm -rf storage/framework/views/86f42c963f9517bcc2d4b589a85184c0a9bf953d.php
+git status
+git pull origin email 
+git add --all
+git commit -m "email"
+git pull origin email 
+composer dumpautooad
+composer dumpautoad
+composer dumpautoload
+cd ..
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+cd yellotasker
+git pull origin email 
+git status
+git add --all
+git commit -m "merge"
+git push origin email 
+git pull origin email 
+chmod -R 777 storage/ bootstrap/cache/
+git pull origin email 
+cd ..
+git clone git@github.com:krsdata/newborn.git
+cd newborn/
+git checkout dev
+git pull oridev 
+git pull origin dev 
+ls
+nano .env
+nano /etc/apache2/sites-available/000-default.conf
+nano /etc/hosts
+sudo service apache2 restart 
+composer update
+chmod -R 777 storage/ bootstrap/cache/
+cp -r ../yellotasker/.htaccess  .
+git pull origin dev 
+git pull origin dev
+cd ..
+cd kundanroy.com/
+ls
+mkdir vendimation
+cd vendimation/
+git init
+git remote add origin git@github.com:krsdata/vendimation.git
+git fetch --all
+git branch 
+git branch  -a
+git checkout dev2
+git pull origin dev2
+chmod -R 777 storage/ bootstrap/cache/
+ls -la
+cp -r ../../yellotasker/.env .
+cp -r ../../yellotasker/.htaccess .
+cp -r ../../yellotasker/vendor .
+ls -la
+nano /etc/apache2/sites-available/000-default.conf
+nano /etc/hosts
+sudo service apache2 restart 
+ping vendimation.kundanroy.com
+nano /etc/hosts
+sudo service apache2 restart 
+composer dumpautolaod
+composer dumpautoload
+cd /var/www/html/kundanroy.com/hospital
+cat .git/config 
+git status
+cd ..
+ls
+cd vendimation/
+git branch 
+git pull origin dev2
+cd ..
+cd hospital
+git branch 
