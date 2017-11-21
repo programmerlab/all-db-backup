@@ -1,27 +1,3 @@
-git pull origin api
-cat .env
-nano .env
-cd ..
-cd yellotasker
-nano .env
-cd ..
-cd /var/www/html/eventbid
-git pull origin dev 
-locate php.ini 
-nano /etc/php/7.0/apache2/php.ini
-sudpo service apache2 restart
-sudo service apache2 restart
-cd /var/www/html/yellotasker-api/
-git pull origin api 
-nano modules/Api/src/Controllers/TaskController.php 
-git pull origin api 
-cd /var/www/html/intouchamerica.xyz/
-ls
-git add .
-git commit -m "backup 5 sep"
-git push origin ITA-4-SEP-2017 
-ls -la
-chmod -R 755 wp-admin/
 chmod -R 755 wp-content/
 chmod -R 755 wp-includes/
 rm -rf  .wp-load.php.swp
@@ -1998,3 +1974,27 @@ git pull origin dev2
 cd ..
 cd hospital
 git branch 
+cd /var/www/html/yellotaskerql
+cd /var/www/html/yellotasker
+git fetch --all
+git checkout comments 
+git pull origin comments 
+git checkout storage/framework/
+git pull origin comments 
+composer dumpautoload
+chmod -R 777 storage/  bootstrap/cache/
+composer dumpautoload
+git pull origin comments 
+git branch 
+git checkout storage/framework/
+git status
+git checkout storage/framework/views/
+git status
+composer autoloadf
+composer dumpautoload
+git status
+rm -rf storage/framework/views/*
+composer dumpautoload
+php artisan clear:cache
+php artisan cache:claer
+php artisan cache:clear
