@@ -1,22 +1,3 @@
-chmod -R 755 wp-content/
-chmod -R 755 wp-includes/
-rm -rf  .wp-load.php.swp
-find . -type f -exec chmod 644 {} \;
-ls -la
-find . -type d -exec chmod 755 {} \; 
-chown swapnil:swapnil  -R *
-chown www-data:www-data wp-content
-ls
-ls -la
-chmod -R  755 wp-includes
-chmod -R  755 wp-wp-includes wp-includes
-chmod -R  755  wp-admin
-ls -la
-cd /var/www/html/intouchamerica.xyz/
-ls
-git status
-nano  wp-content/themes/intouchamerica/footer.php
-nano wp-content/themes/intouchamerica/functions.php
 nano  wp-content/themes/intouchamerica/single-product.php
 git status
 git checkout -b ITA-4-SEP-2017
@@ -1998,3 +1979,22 @@ composer dumpautoload
 php artisan clear:cache
 php artisan cache:claer
 php artisan cache:clear
+cd /var/www/html/
+ls
+cd kundanroy.com/
+ls
+mkdir demo
+sudo adduser manoj
+sudo usermod -d /var/www/html/kundanroy.com/demo manoj
+chown -R manoj:manoj /var/www/html/kundanroy.com/demo 
+sudo su manoj
+nano /etc/apache2/sites-available/000-default.conf
+nano /etc/hosts
+sudo service apache2 restart 
+sudo chmod 777 demo/
+exit
+sudo chmod a-w /var/www/html/kundanroy.com/demo/manoj/www-data
+chmod a-w /home/vicky/www-data
+sudo chmod a-w /home/vicky/www-data
+usermod --home /var/www/html/kundanroy vicky
+exit
