@@ -1,18 +1,3 @@
-nano  wp-content/themes/intouchamerica/single-product.php
-git status
-git checkout -b ITA-4-SEP-2017
-git add .
-git commit -m "backup 4 sep" 
-git push origin ITA-4-SEP-2017 
-git checkout wp-admin/
-git checkout wp-includes/
-cd /var/www/html/
-ls
-exit
-cd /var/www/html/intouchamerica.xyz
-ls
-ls -la
-chmod -R 755 wp-content/
 chmod -R 755 wp-includes/
 chmod -R 755 wp-admin/
 cd ..
@@ -1997,4 +1982,19 @@ sudo chmod a-w /var/www/html/kundanroy.com/demo/manoj/www-data
 chmod a-w /home/vicky/www-data
 sudo chmod a-w /home/vicky/www-data
 usermod --home /var/www/html/kundanroy vicky
+exit
+cd /var/www/html/yellotasker
+git pull origin comments 
+git checkout storage/framework/views/
+git pull origin comments 
+git add storage/
+git commit -m "storage"
+git pull origin comments 
+rm -rf storage/framework/views/*
+git status
+git add --all
+git commit -m "remove"
+git status
+git pull origin comments 
+git push origin comments 
 exit
