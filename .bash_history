@@ -1,11 +1,3 @@
-chmod -R 755 wp-includes/
-chmod -R 755 wp-admin/
-cd ..
-chmod -R 777 intouchamerica.xyz/
-git status
-cd  intouchamerica.xyz/
-ls
-git checkout wp-admin
 git checkout wp-includes/
 git checkout wp-content/
 chmod -R 777 wp-admin/includes/
@@ -1998,3 +1990,11 @@ git status
 git pull origin comments 
 git push origin comments 
 exit
+nano /etc/apache2/sites-available/000-default.conf
+exit
+cd /var/www/html/yellotasker
+git  branch 
+cd /var/www/html/yellotasker
+git pull origin 
+cd /var/www/html/yellotasker
+git pull origin 
