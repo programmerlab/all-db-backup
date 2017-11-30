@@ -1,7 +1,3 @@
-git checkout wp-includes/
-git checkout wp-content/
-chmod -R 777 wp-admin/includes/
-ls
 git status
 nano wp-content/plugins/wc-fields-factory/assets/js/wccpf-front-end.js 
 cd wp-content/themes/intouchamerica/
@@ -1998,3 +1994,7 @@ cd /var/www/html/yellotasker
 git pull origin 
 cd /var/www/html/yellotasker
 git pull origin 
+cd /var/www/html/yellotasker.co/
+ls
+cat .git/config 
+exit
