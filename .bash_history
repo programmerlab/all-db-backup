@@ -1,6 +1,3 @@
-git status
-nano wp-content/plugins/wc-fields-factory/assets/js/wccpf-front-end.js 
-cd wp-content/themes/intouchamerica/
 ls
 cd .
 ls
@@ -1998,3 +1995,6 @@ cd /var/www/html/yellotasker.co/
 ls
 cat .git/config 
 exit
+cd /var/www/html/yellotasker
+git branch 
+git pull origin comments 
