@@ -1,61 +1,3 @@
-ls
-cd .
-ls
-cd ..
-ls
-ls -la
-sudo adduser marchworking
-cd /var/www/html/marchworking/
-sudo usermod -d /var/www/html/marchworkin marchworking
-sudo chown -R  marchworking:marchworking /var/www/html/marchworkin/
-sudo chown -R  marchworking:marchworking /var/www/html/marchworking/
-ls
-exit
-cd /home/marchworking/
-ls
-cd ..
-cp -r marchworking/* /var/www/html/marchworking/
-cd /var/www/html/marchworking/
-ls -la
-cp -r index.html public_html/
-cp -r home-march.jpg public_html/
-cd /home/
-cd marchworking/
-ls
-nano /etc/apache2/sites-available/000-default.conf
-sudo service apache2 restart 
-chmod -R 777 /home/marchworking/
-nano /etc/apache2/sites-available/000-default.conf
-sudo service apache2 restart 
-cp -r /home/marchworking/ /var/www/html/marchworking/public_html/
-cp -r /home/marchworking/ /var/www/html/marchworking/
-sudo usermod -d /var/www/html/marchworking/ marchworking
-sudo su marchworking 
-cd /var/www/html/marchworking/
-ls
-rm -rf  public_html/
-ls
-rm -rf marchworking/
-ls
-cd /var/www/html/marchworking/
-cd /home/
-ls
-rm -rf manpreet/
-sudo su manpreet 
-userdel manpreet 
-ls
-ls -la
-sudo su manpreet
-chmod -R 777 /var/www/html/marchworking/
-cd /var/www/html/marchworking/
-ls -la
-rm -rf home-march.jpg 
-nano /etc/apache2/sites-available/000-default.conf
-sudo service apache2 restart 
-rm -rf index.html 
-rm -rf home-march.jpg 
-ls -a
-ls -la
 \
 ls
 jpgjpgls -la
@@ -1998,3 +1940,61 @@ exit
 cd /var/www/html/yellotasker
 git branch 
 git pull origin comments 
+cd /var/www/html/kundanroy.com/
+ls
+cd hospital
+ls
+ls -la
+git status
+cd /var/www/html/kundanroy.com/
+sudo chown -R www-data:www-data hospital
+cd /var/www/html/
+nano /etc/apache2/sites-available/000-default.conf
+nano /etc/hosta
+nano /etc/hosts
+sudo service apache2 restart 
+cd kundanroy.com/
+ls
+cd hospital
+ls
+git status
+git add --all
+chmod -R 775 wp-admin
+git add --all
+git commit -m "updated"
+ls
+git branch 
+git checkout hospital2-dec
+git checkout -b hospital2-dec
+git push origin hospital2-dec 
+ls
+mysqldump -u root -p hospital_db < hospital.sql 
+mysqldump -u root -p hospital_db.sql < hospital.sql 
+mysql  -u root -p hospital_db < hospital.sql 
+cat wp-config.php 
+nano /etc/apache2/sites-available/000-default.conf
+cd ..
+mkdir hospitaldelaconcepcion.com
+cd hospitaldelaconcepcion.com/
+ls
+git init
+cat ../kundanroy.com/hospital/.git/config 
+cd ..
+cp -r kundanroy.com/hospital .
+cd hospital
+ls -la
+rm -rf wp-snapshots/
+git branch 
+git status
+git add .
+git commit -m "del"
+git push origin hospital2-dec 
+nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart 
+nano wp-config.php 
+cd /var/www/html/hospital
+nano wp-config.php 
+chmod -R -R 777 wp-content/uploads
+chmod  -R 777 wp-content/uploads
+cd ..
+chmod -R 777 kundanroy.com/hospital/wp-content/uploads
