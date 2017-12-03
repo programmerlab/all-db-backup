@@ -1,76 +1,3 @@
-\
-ls
-jpgjpgls -la
-ls -la
-mv home.jpg  home-march.jpg 
-ls
-rm -f home-march.jpg 
-ls -la
-ls 
-ls -la
-cd /home/marchworking/
-ls
-rm -rf home-march.jpg  index.html 
-nano /etc/apache2/sites-available/000-default.conf
-sudo service apache2 restart 
-cd /var/www/html/marchworking/
-ls
-mv index.html  index2.html 
-mv index2.html index.php 
-nano index.php 
-cd /var/www/html/intouchamerica
-ls
-cd
-cd /var/www/html/
-ls
-cd intouchamerica.xyz/
-ls
-git checkout wp-admin/
-git checkout wp-includes/
-nano .htaccess 
-nano wp-config.php 
-exit
-cd /var/backups/
-ls
-cd .. 
-mysqldump --all-databases > all_databases.sql
-mysqldump -u root -p  --all-databases > all_databases.sql
-locate all_databases.sql 
-ls -la
-mv all_databases.sql /home/
-ls -la
-crontab -e 
-sudo automysqlbackup
-cd /var/lib/automysqlbackup/daily/
-ls
-ls -la
-cd ytasker/
-ls
-service cron start
-service crond start
-crontab -l
-sudo /etc/init.d/crond start
-sudo /etc/init.d/cron status 
-exit
-cd /var/www/html/intouchamerica.xyz/
-ls
-cd wp-content/plugins/
-ls
-nano index.php 
-cd akismet/
-ls
-ls -la
-nano .htaccess 
-\
-cd ..
-ls -la
-mv wp-includes wp-includes3
-mv wp-includes2 wp-includes
-ls -la
-nano .htaccess 
-cd wp-admin
-ls -la
-cd ..
 ls -la
 rm -rf ..
 rm -rf ..htaccess.swp 
@@ -1998,3 +1925,76 @@ chmod -R -R 777 wp-content/uploads
 chmod  -R 777 wp-content/uploads
 cd ..
 chmod -R 777 kundanroy.com/hospital/wp-content/uploads
+cd /var/www/html/yellotasker
+git pull origin 
+git branch 
+git fetch --all
+ls 
+git branch -a
+git checkout dev
+git pull origin comments 
+git branch 
+git checkout master 
+git pull origin master 
+git pull origin dev
+git checkout api
+git checkout app/
+git checkout dev
+git branch 
+git checkout comments 
+git status
+git add .
+git commit -m "master
+
+
+
+git commit -m "master
+
+
+"
+git checkout dev
+git branch 
+git checkout comments 
+git pull origin comments 
+git status
+git pull origin 
+chmod -R  777 storage/
+git pull origin 
+chmod -R  777 storage/ bootstrap/cache/
+cd ..
+cd newborn/
+ls
+git pull origin 
+cd ..
+cd  newborn/
+ls
+git branch 
+git pull origin dev
+nano /etc/apache2/sites-available/000-default.conf
+ls
+ls -la
+git pull origin dev
+cd /var/www/html/yellotasker
+git pull origin 
+cd /var/www/html/yellotasker
+ls
+cd ..
+cd  hospital
+nano test.txt 
+nano wp-config.php
+exit
+cd /var/www/html/
+nano /etc/hosts
+y
+cd hospital
+ls
+nano abc.txt
+ls-la
+ls -la
+nano test.txt 
+nano /etc/apache2/sites-available/000-default.conf
+cd ..
+nano kundanroy.com/hospital
+cd  kundanroy.com/hospital
+ls
+nano test.txt 
